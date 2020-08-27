@@ -17,9 +17,15 @@
     height: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between; 
     /* color: blue;
     border: 20px solid black; */
 }
+
+.flex-grow {
+    flex-grow: 1;
+    text-align: right;
+  }
 
 .nav-bar li{  
     width: 100px;  
@@ -69,9 +75,9 @@ Google & Serach Form section */
     display: flex;
     margin-top: 25px;
     flex-direction: row; */
-    /* display: grid; */
+    display: grid;
     /* gap: 20px 5px; */
-    /* grid-template-columns: repeat(6, 100px); */
+    grid-template-columns: 6, 50px;
     /* grid-template-columns: repeat(4, 100px 2fr); */
 
     background: rgb(156, 154, 154);
