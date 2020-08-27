@@ -112,6 +112,7 @@ Google & Serach Form section */
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    margin-top: 20px;
     /* color: blue;
     border: 20px solid black; */
 }
@@ -129,6 +130,10 @@ Google & Serach Form section */
     list-style:none;
     text-decoration: none;
     color: black;
+}
+.footer-section a{  
+    color: black;
+    text-decoration: none;
 }
 
 .right{
