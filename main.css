@@ -5,15 +5,12 @@
 }
 
 .parent{
-    /* height: 100vh; */
-    width: 500px;
-    margin-left: 450px;
-    margin-top: 200px;
+    height: 100vh;
     border: 20px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: center; 
+    align-items: center;
 }
 
 /* .child1{
@@ -22,15 +19,15 @@
     background: pink;
 } */
 
-.child2{
-    /* width: 200px; */
+.child1{
+    width: 400px;
     text-align: center;
     height: 100px;
     background: rgb(32, 136, 113);
 }
 
-.child3{
-    /* width: 200px; */
+.child2{
+    width: 400px;
     height: 200px;
     background: yellow;
 }
