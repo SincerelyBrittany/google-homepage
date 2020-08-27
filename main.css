@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+.container{
+    height: 100vh;
+    /* background: blue; */
+
+}
+
 /* navbar section */
 
 .nav-bar ul{
@@ -25,8 +31,8 @@
 Google & Serach Form section */
 
 .parent{
-    height: 100vh;
-    border: 20px solid black;
+    height: 85%;
+    /* border: 20px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -45,7 +51,7 @@ Google & Serach Form section */
     width: 400px;
     text-align: center;
     height: 100px;
-    background: rgb(32, 136, 113);
+    /* background: rgb(32, 136, 113); */
 }
 
 .child2{
@@ -70,4 +76,10 @@ Google & Serach Form section */
     /* background-color: #8cacea;   */
     margin: 8px;
     list-style:none;
+    text-decoration: none;
+}
+
+.footer-section a{  
+    color: black;
+    text-decoration: none;
 }
