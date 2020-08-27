@@ -6,21 +6,23 @@
 
 /* navbar section */
 
-ul{
-    height: 100px;
+.nav-bar ul{
+    height: 50px;
     display: flex;
     flex-direction: row;
     /* color: blue;
     border: 20px solid black; */
 }
 
-li{  
+.nav-bar li{  
     width: 100px;  
-    height: 50px;  
+    height: 10px;  
     /* background-color: #8cacea;   */
     margin: 8px;
     list-style:none;
 }
+/* 
+Google & Serach Form section */
 
 .parent{
     height: 100vh;
@@ -50,4 +52,22 @@ li{
     width: 400px;
     height: 200px;
     background: yellow;
+}
+
+/* Footer section */
+
+.footer-section ul{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    /* color: blue;
+    border: 20px solid black; */
+}
+
+.footer-section li{  
+    width: 100px;  
+    height: 10px;  
+    /* background-color: #8cacea;   */
+    margin: 8px;
+    list-style:none;
 }
